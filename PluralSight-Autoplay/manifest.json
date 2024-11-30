@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Pluralsight™ Autoplay",
+  "version": "1.0",
+  "description": "Removes delays before autoplaying the next video.",
+  "author": "Hector Patricio Gonzalez Palavicino",
+  "icons": {
+    "128": "icon128.png"
+  },
+  "content_scripts": [{
+    "matches": ["*://*.pluralsight.com/*"],
+    "js": [
+      "content-script.js"
+    ],
+    "run_at": "document_end"
+  }]
+}
