@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "Pluralsight™ Autoplay",
   "version": "1.0",
-  "description": "Removes delays before autoplaying the next video.",
+  "description": "Learn without delays or breaks in between videos.",
   "author": "Hector Patricio Gonzalez Palavicino",
   "icons": {
     "128": "icon128.png"
