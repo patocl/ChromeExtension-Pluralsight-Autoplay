@@ -1,6 +1,6 @@
 # Pluralsight™ Autoplay
 
-This Chrome Extension is designed to **dynamically and repeatedly click buttons**  on a webpage with frequently updating content, such as in Single Page Applications (SPA). It leverages a `MutationObserver` to track changes in the DOM and react only when necessary. Here's what it does: 
+**Pluralsight™ Autoplay** Chrome Extension is designed to **dynamically and repeatedly click buttons**  on a webpage with frequently updating content, such as in Single Page Applications (SPA). It leverages a `MutationObserver` to track changes in the DOM and react only when necessary. Here's what it does: 
 
 1. **Listens for DOM changes:** 
 It uses a `MutationObserver` to detect when the specified button is added to or reappears in the DOM.
